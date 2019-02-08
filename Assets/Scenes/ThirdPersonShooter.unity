@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.4964127, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -485,7 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6613f7a47a7c1d4282b6bb3a019c730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 57323255100631523, guid: c3ec1f98cba7cb4498c59d934ff0d010, type: 3}
+  bullet: {fileID: 8578711079520427157, guid: 461da430e343df54fbcee522c90a1e79, type: 3}
   gunpoint: {fileID: 764800432}
   speed: 25
   bulletPool: 20
@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 1539462447}
   - component: {fileID: 1539462446}
   m_Layer: 0
-  m_Name: GameController
+  m_Name: TPSGameController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

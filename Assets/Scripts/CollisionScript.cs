@@ -10,6 +10,6 @@ public class CollisionScript : MonoBehaviour
     {
         GameObject target = collision.collider.gameObject;
         Instantiate(explosion, target.transform.position, target.transform.rotation);
-        target.SetActive(false);
+        Destroy(target);
     }
 }
